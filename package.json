@@ -1,0 +1,27 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumby0168/mumby-site.git"
+  },
+  "author": "billy mumby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mumby0168/mumby-site/issues"
+  },
+  "homepage": "https://github.com/mumby0168/mumby-site#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
